@@ -198,6 +198,10 @@ export const makeTestCeramicContext = (initialState?: Partial<CeramicContextStat
         providerSpec: getProviderSpec("Gitcoin", "GitcoinGranteeStatistics#numGrantsInEcoAndCauseRound#1"),
         stamp: undefined,
       },
+      WorldID: {
+        providerSpec: STAMP_PROVIDERS.WorldID,
+        stamp: undefined,
+      },
     },
     handleAddStamp: jest.fn(),
     handleAddStamps: jest.fn(),

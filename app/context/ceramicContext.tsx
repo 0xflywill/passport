@@ -288,6 +288,10 @@ const startingAllProvidersState: AllProvidersState = {
     providerSpec: getProviderSpec("GnosisSafe", "GnosisSafe"),
     stamp: undefined,
   },
+  WorldID: {
+    providerSpec: STAMP_PROVIDERS.WorldID,
+    stamp: undefined,
+  },
 };
 
 const startingState: CeramicContextState = {
